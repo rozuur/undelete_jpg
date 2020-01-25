@@ -24,9 +24,6 @@
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
 #define MAX_JPG (50*ONE_MB)
 
-typedef int64_t date_usec_t;
-typedef int64_t span_usec_t;
-
 struct human_time_span {
   int days;
   int hours;
